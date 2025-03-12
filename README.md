@@ -13,9 +13,20 @@
 1. install the recommended extensions (cmd + shift + p -> `Extensions: Show Recommended Extensions`)
 
 ## Samples
+
 ```sh
-python -m autogen_orchestrator.main
+python -m autogen_orchestrator.main # default is selector group chat
 ```
+
+```sh
+python -m autogen_orchestrator.main -t round_robin
+```
+
+```sh
+python -m autogen_orchestrator.main -t swarm
+```
+
+
 
 ## Unit Test Coverage
 
